@@ -5,7 +5,6 @@ import { Header } from "../components/Header";
 import { BrowserProvider } from "ethers";
 import config from "./config.json";
 import List from "../components/List";
-import { token } from "../../typechain-types/@openzeppelin/contracts";
 import TokenCard from "../components/TokenCard";
 import Trade from "../components/Trade";
 

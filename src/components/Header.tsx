@@ -1,5 +1,4 @@
-import { ethers } from "ethers";
-export const Header = ({ account, setAccount }: any) => {
+export const Header = ({ account, setAccount }) => {
   
   async function connectWalletHandler(){
     if(account===null){

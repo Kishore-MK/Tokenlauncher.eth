@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import React from "react";
 
-const TokenCard = ({ toggleTrade, token }: any) => {
+const TokenCard = ({ toggleTrade, token }) => {
   return (
     <div className= "">
       

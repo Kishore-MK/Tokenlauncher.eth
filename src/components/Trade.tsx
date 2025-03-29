@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
-import { use, useEffect, useState } from "react";
-const Trade = ({ toggleTrade, token, provider, factory }: any) => {
+import { useEffect, useState } from "react";
+const Trade = ({ toggleTrade, token, provider, factory }) => {
   const [target, setTarget] = useState(0);
   const [limit, setLimit] = useState(0);
 
@@ -34,7 +34,7 @@ const Trade = ({ toggleTrade, token, provider, factory }: any) => {
 
   useEffect(() => {
     getTokenPrice();
-  }, []);
+  });
   return (
     <div className="trade">
       <div className="btn--fancy">Trade</div>

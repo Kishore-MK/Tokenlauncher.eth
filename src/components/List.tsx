@@ -1,5 +1,5 @@
 import { ethers } from "ethers"
-function List({toggleCreate, fee, provider, factory}:any) {
+function List({toggleCreate, fee, provider, factory}) {
 
     async function listHandler(form:FormData){
         const name= form.get("name")      
