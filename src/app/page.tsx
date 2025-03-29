@@ -29,7 +29,7 @@ export default function Home() {
   const [token, setToken] = useState<Token>();
 
   async function toggleCreate() {
-    showCreate ? setShowCreate(false) : setShowCreate(true);
+    const x= showCreate ? setShowCreate(false) : setShowCreate(true);
   }
 
   async function loadChainData() {
@@ -65,7 +65,7 @@ export default function Home() {
   }
   async function toggleTrade(token:Token){
     setToken(token)
-    showTrade?setShowTrade(false):setShowTrade(true)
+    const x= showTrade ? setShowTrade(false):setShowTrade(true)
 
   }
 
