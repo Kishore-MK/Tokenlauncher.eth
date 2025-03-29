@@ -38,7 +38,7 @@ export default function Home() {
     setProvider(provider);
 
     const factory = new ethers.Contract(
-      config["31337"].factory.address,
+      config["11155111"].factory.address,
       config["abi"],
       provider
     );
